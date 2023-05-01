@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+}
+
+/* NAV BAR */
+nav {
+    background-color: rgb(233, 167, 167);
+}
+
+/* COOL SLIDING STUFF */
+.navstuff {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Makes it into a column */
+    overflow-x: hidden; /* Hides the nav stuff */
+    padding-top: 60px;
+    transition: 0.3s;
+    font-size: 24px;
+}
+
+.navstuff a {
+    padding: 10px 8px 8px 32px;
+    display: block;
+}
+
+.openclose {
+    background-color: rgb(186, 163, 243);
+    width: 150px;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    font-size: 40px;
+}
+
+#main {
+    transition: margin-left 0.5s; /* Slides the main to the right when nav opened */
+}
+
+.port-code,
+.port-writing,
+.port-drawing,
+.port-animation {
+    margin-left: 25px;
+}
+
+.nav-about,
+.nav-resume,
+.nav-contact,
+.nav-portfolio {
+    margin-top: 20px;
+}
+
+.nhome {
+    background-color: rgb(210, 111, 111);
+    display: flex;
+    flex-direction: row;
+}
+
+.nabout {
+    background-color: rgb(202, 127, 74);
+    display: flex;
+    flex-direction: row;
+}
+
+.nport {
+    background-color: rgb(199, 105, 105);
+    display: flex;
+    flex-direction: row;
+}
+
+.pcode {
+    background-color: rgb(203, 146, 99);
+    display: flex;
+    flex-direction: row;
+}
+
+.pwrite {
+    background-color: rgb(214, 119, 119);
+    display: flex;
+    flex-direction: row;
+}
+
+.pdraw {
+    background-color: rgb(197, 155, 110);
+    display: flex;
+    flex-direction: row;
+}
+
+.panim {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+}
+
+.nresume {
+    background-color: rgb(255, 128, 0);
+    display: flex;
+    flex-direction: row;
+}
+
+.ncontact {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* MORE STYLE STUFF */
+.navstuff a {
+    text-decoration: none;
+}
+
+.navstuff a:hover {
+    color: aqua;
+}
+
+
+
+/* DECOR */
+.grass {
+    bottom: 0;
+    position: absolute;
+    background-color: rgb(0, 178, 0, 0.3);
+    width: 100%;
+    height: 25%;
+    transition: 0.5s;
+}
+
+.blanket {
+    position: absolute;
+    background-color: pink;
+    width: 45em;
+    height: 6em;
+    left: 14em;
+    bottom: 10.3em;
+    transition: 0.5;
+}
+
+.lantern {
+    position: absolute;
+    background-color: yellow;
+    width: 80px;
+    height: 100px;
+    left: 36em;
+    bottom: 18em;
+}
+
+.lantern:hover {
+    cursor: pointer;
+}
+
+.basket {
+    background-color: cornflowerblue;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    left: 37em;
+    bottom: 11em;
+}
+
+.rudy {
+    position: absolute;
+    background-color: bisque;
+    width: 120px;
+    height: 150px;
+    left: 47em;
+    bottom: 14em;
+}
+
+.rudy:hover {
+    cursor: grab;
+}
+
+
+/* OTHER PAGES */
+.home-text {
+    background-color: rgb(176, 111, 176);
+}
+
+.aboutme {
+    position: absolute;
+    background-color: aqua;
+    width: 8em;
+    height: 13em;
+    left: 18em;
+    bottom: 14.5em;
+}
+
+.resume {
+    position: absolute;
+    background-color: brown;
+    width: 100px;
+    height: 60px;
+    left: 19em;
+    bottom: 10.5em;
+}
+
+.contact {
+    background-color: chocolate;
+    width: 100px;
+    height: 100px;
+}
+
+.portfolio {
+    position: absolute;
+    background-color: orange;
+    width: 12em;
+    height: 15em;
+    right: 25em;
+    bottom: 13em;
+}
+
+
+/* FOOTER */
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 12px;
+    display: flex;
+    justify-content: center;
+}

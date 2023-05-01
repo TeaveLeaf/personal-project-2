@@ -1,0 +1,66 @@
+z-index makes it into a column thingy
+
+
+
+
+
+
+
+
+code i tried using for the navigation
+
+nav {
+    background-color: rgb(230, 165, 165);
+    /* margin-left: 12em; */
+}
+
+.pole {
+    background-color: rgb(255, 173, 57);
+    width: 30px;
+    height: 100vh;
+    position: absolute;
+    top: 12px;
+    right: 60em;
+}
+
+.navstuff {
+    background-color: rgb(118, 96, 139);
+    width: max-content;
+    height: max-content;
+    /* text-align: center; */
+    /* right: 60em; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 50em;
+    margin-top: 3em;
+}
+
+.nav-home,
+#porty {
+    margin-left: 16em;
+}
+
+/* .nav-resume,
+.nav-contact {
+    margin-top: -8em;
+} */
+
+.nav-resume {
+    margin-top: -12em;
+}
+
+.nav-contact {
+    margin-top: 3em;
+}
+
+nav button {
+    width: 15em;
+    height: 3em;
+}
+
+
+
+.openclose {
+    width: 17em;
+    /* left: 15em; */
+} 
