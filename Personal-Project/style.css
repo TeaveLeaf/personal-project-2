@@ -9,6 +9,7 @@ nav {
 
 /* COOL SLIDING STUFF */
 .navstuff {
+    background-color: rgb(97, 97, 181);
     height: 100%;
     width: 0;
     position: fixed;
@@ -33,6 +34,7 @@ nav {
     top: 0;
     left: 0;
     font-size: 40px;
+    transition: 0.3s;
 }
 
 #main {
@@ -54,55 +56,56 @@ nav {
 }
 
 .nhome {
-    background-color: rgb(210, 111, 111);
+    /* background-color: rgb(210, 111, 111); */
     display: flex;
     flex-direction: row;
 }
 
 .nabout {
-    background-color: rgb(202, 127, 74);
+    /* background-color: rgb(202, 127, 74); */
     display: flex;
     flex-direction: row;
 }
 
 .nport {
-    background-color: rgb(199, 105, 105);
+    /* background-color: rgb(199, 105, 105); */
     display: flex;
     flex-direction: row;
 }
 
 .pcode {
-    background-color: rgb(203, 146, 99);
+    /* background-color: rgb(203, 146, 99); */
     display: flex;
     flex-direction: row;
+    /* padding-left: 23px; */
 }
 
 .pwrite {
-    background-color: rgb(214, 119, 119);
+    /* background-color: rgb(214, 119, 119); */
     display: flex;
     flex-direction: row;
 }
 
 .pdraw {
-    background-color: rgb(197, 155, 110);
+    /* background-color: rgb(197, 155, 110); */
     display: flex;
     flex-direction: row;
 }
 
 .panim {
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     flex-direction: row;
 }
 
 .nresume {
-    background-color: rgb(255, 128, 0);
+    /* background-color: rgb(255, 128, 0); */
     display: flex;
     flex-direction: row;
 }
 
 .ncontact {
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     flex-direction: row;
 }
@@ -120,6 +123,35 @@ nav {
 
 
 /* DECOR */
+/* .tree {
+    position: absolute;
+    background-color: rgb(57, 130, 57);
+    width: 100px;
+    height: 100px;
+    left: 13em;
+    bottom: 17em;
+} */
+
+.title img {
+    width: 60em;
+    height: 15em;
+    position: absolute;
+    left: 25%;
+}
+
+#welp1 {
+    position: absolute;
+    font-size: 24px;
+    left: 30%;
+}
+
+#welp2 {
+    position: absolute;
+    font-size: 24px;
+    left: 23.5%;
+    top: 35%;
+}
+
 .grass {
     bottom: 0;
     position: absolute;
@@ -189,6 +221,12 @@ nav {
     bottom: 14.5em;
 }
 
+.aboutme a{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
 .resume {
     position: absolute;
     background-color: brown;
@@ -202,6 +240,9 @@ nav {
     background-color: chocolate;
     width: 100px;
     height: 100px;
+    position: absolute;
+    left: 17em;
+    bottom: 43em;
 }
 
 .portfolio {
@@ -221,4 +262,59 @@ footer {
     bottom: 12px;
     display: flex;
     justify-content: center;
+}
+
+/*  Jon's home     *                    */
+/*                   *                  */
+/*                  *                   */
+/*                  _|_______           */
+/*                 /         \          */
+/*                /___________\         */
+/*                |  _     _  |         */
+/*                | |_| _ |_| |         */
+/*                | |_|| ||_| |         */
+/* _______________|____|_|____|________ */
+
+
+/* ABOUT ME */
+.me-closeup {
+    position: absolute;
+    background-color: rgb(174, 210, 255);
+    width: 50em;
+    height: 60em;
+    bottom: 0;
+    left: 10%;
+}
+
+.me-info {
+    background-color: rgb(167, 167, 255);
+    width: 50em;
+    height: 55em;
+    margin-top: 5%;
+    margin-left: 55%;
+}
+
+.name {
+    width: 15em;
+    height: 6em;
+    /* margin-left: 2%; */
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+}
+
+.name p {
+    /* background-color: rgb(238, 198, 125); */
+    /* padding-top: 10%; */
+    font-size: 48px;
+}
+
+#name {
+    background-color: aqua;
+    height: 0;
+}
+
+#pronouns {
+    background-color: beige;
+    margin-left: 3em;
 }
