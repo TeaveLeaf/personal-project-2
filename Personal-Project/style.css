@@ -206,6 +206,27 @@ nav {
     cursor: grab;
 }
 
+.popup {
+    background-color: rgb(179, 109, 109);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 19em;
+    bottom: 20em;
+    
+}
+
+.popup-pic {
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: -8em;
+    transition: 0.3;
+}
+/* idk ill do it later */
+
+
 
 /* OTHER PAGES */
 .home-text {
@@ -299,14 +320,16 @@ footer {
     height: 6em;
     /* margin-left: 2%; */
     /* text-align: center; */
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
 }
 
-.name p {
-    /* background-color: rgb(238, 198, 125); */
-    /* padding-top: 10%; */
-    font-size: 48px;
+/* .name p {
+    /* background-color: rgb(238, 198, 125); 
+    /* padding-top: 10%; 
+    font-size: 55px;
+    padding-top: 8%;
+    padding-left: 13%;
 }
 
 #name {
@@ -316,5 +339,76 @@ footer {
 
 #pronouns {
     background-color: beige;
-    margin-left: 3em;
+    width: max-content;
+    margin-left: 6em;
+} */
+
+
+
+
+
+
+
+
+
+/* PORTFOLIO */
+.portfoliopage {
+    background-color: black;
 }
+
+.scope {
+    background-color: rgb(193, 172, 235);
+    width: 65em;
+    height: 65em;
+    border-radius: 50%;
+    display: block;     /* how to center things */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.coding {
+    position: absolute;
+    background-color: red;
+    top: 15%;
+    left: 49%;
+}
+
+.writing {
+    position: absolute;
+    background-color: orange;
+    top: 48%;
+    left: 33%;
+}
+
+.drawing {
+    position: absolute;
+    background-color: yellow;
+    top: 48%;
+    right: 33%;
+}
+
+.animation {
+    position: absolute;
+    background-color: green;
+    bottom: 15%;
+    left: 48%;
+}
+
+
+
+/* CONTACT */
+.thankyou {
+    background-color: rgb(200, 122, 122);
+    width: 30em;
+    height: 10em;
+}
+
+.hooty {
+    background-color: rgb(113, 90, 69);
+    width: 30em;
+    height: 40em;
+    position: absolute;
+    bottom: 30%;
+    right: 35%;
+}
+
