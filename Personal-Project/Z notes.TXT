@@ -1,5 +1,6 @@
 z-index makes it into a column thingy
 
+-make code project pics blurry then clear when hovered over
 
 
 
