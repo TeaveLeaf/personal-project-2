@@ -553,6 +553,7 @@ footer {
     top: 18em;
 }
 
+/* idk man, work on later */
 .gcp1 {
     background-color: red;
     /* background-image: url(Pics/rosescloset.png); */
@@ -710,5 +711,85 @@ footer {
     position: absolute;
     bottom: 30%;
     right: 35%;
+}
+
+
+
+/* PORTFOLIO - ANIMATION !! */
+.animation-stuff {
+    background-color: rgb(255, 231, 235);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.toolbar {
+    background-color: rgb(205, 129, 129);
+    width: 10%;
+    height: 35em;
+    margin-top: 3%;
+    margin-left: 1%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#tool {
+    background-color: rgb(92, 92, 206);
+    width: 40%;
+    height: 9%;
+    margin-left: 27%;
+}
+
+.anim-canvas {
+    background-color: rgb(255, 217, 147);
+    width: 86%;
+    height: 52em;
+    margin-top: 3%;
+    margin-left: 1%;
+}
+
+.anim-vid {
+    background: rgb(146, 192, 255);
+    width: 40%;
+    height: 50%;
+}
+
+.anim-text {
+    background: rgb(125, 189, 113);
+    width: 10em;
+    height: 10em; 
+}
+
+.anim-title {
+    background: rgb(218, 247, 255);
+    width: 10em;
+    height: 10em; 
+}
+
+.anim-desc {
+    background: rgb(206, 116, 209);
+    width: 10em;
+    height: 10em; 
+}
+
+.anim-bottom {
+    background-color: rgb(255, 234, 128);
+    position: fixed;
+    bottom: 0;
+    left: 2.5%;
+    width: 95%;
+    height: 8.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#frame {
+    background-color: orange;
+    width: 9%;
+    height: 90%;
 }
 
