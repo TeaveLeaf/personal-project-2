@@ -13,3 +13,17 @@ function openNav() {
         count = count - 1;
     }
 }
+
+let imgcount = 0;
+function left() {
+    if (imgcount == 0){
+        console.log(imgcount);
+        imgcount = 4;
+        imgcount = imgcount - 1;
+        console.log(imgcount);
+    } else {
+        console.log(imgcount);
+        imgcount = imgcount - 1;
+        console.log(imgcount);
+    }
+}

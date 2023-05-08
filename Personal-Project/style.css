@@ -210,25 +210,6 @@ nav {
     cursor: grab;
 }
 
-.popup {
-    background-color: rgb(179, 109, 109);
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    left: 19em;
-    bottom: 20em;
-    
-}
-
-.popup-pic {
-    background-color: gray;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    left: -8em;
-    transition: 0.3;
-}
-/* idk ill do it later */
 
 
 
@@ -322,35 +303,25 @@ footer {
 .name {
     width: 15em;
     height: 6em;
-    /* margin-left: 2%; */
-    /* text-align: center; */
-    /* display: flex;
-    flex-direction: row; */
 }
 
-/* .name p {
-    /* background-color: rgb(238, 198, 125); 
-    /* padding-top: 10%; 
-    font-size: 55px;
-    padding-top: 8%;
-    padding-left: 13%;
+
+/* RESUME */
+.actResume {
+    background-color: #bd8282;
+    width: 70%;
+    height: 57em;
+    margin-top: 3%;
 }
 
-#name {
-    background-color: aqua;
-    height: 0;
+.bug {
+    background-color: green;
+    width: 5em;
+    height: 5em;
+    position: fixed;
+    right: 10%;
+    top: 20%;
 }
-
-#pronouns {
-    background-color: beige;
-    width: max-content;
-    margin-left: 6em;
-} */
-
-
-
-
-
 
 
 
@@ -696,28 +667,9 @@ footer {
 
 
 
-
-/* CONTACT */
-.thankyou {
-    background-color: rgb(200, 122, 122);
-    width: 30em;
-    height: 10em;
-}
-
-.hooty {
-    background-color: rgb(113, 90, 69);
-    width: 30em;
-    height: 40em;
-    position: absolute;
-    bottom: 30%;
-    right: 35%;
-}
-
-
-
 /* PORTFOLIO - ANIMATION !! */
-.animation-stuff {
-    background-color: rgb(255, 231, 235);
+.animationstuff {
+    /* background-color: rgb(255, 231, 235); */
     width: 100%;
     height: auto;
     display: flex;
@@ -743,40 +695,51 @@ footer {
     margin-left: 27%;
 }
 
-.anim-canvas {
+.animcanvas {
     background-color: rgb(255, 217, 147);
     width: 86%;
-    height: 52em;
+    height: 50em;
     margin-top: 3%;
     margin-left: 1%;
 }
 
-.anim-vid {
-    background: rgb(146, 192, 255);
+.animvid {
+    /* background: rgb(146, 192, 255); */
     width: 40%;
     height: 50%;
+    margin-top: 2%;
+    margin-left: 2%;
 }
 
-.anim-text {
-    background: rgb(125, 189, 113);
-    width: 10em;
-    height: 10em; 
+.animtext {
+    /* background: rgb(125, 189, 113); */
+    width: 30em;
+    height: max-content; 
+    margin-left: 50%;
+    margin-top: -30%;
+    font-size: 24px;
 }
 
-.anim-title {
-    background: rgb(218, 247, 255);
-    width: 10em;
-    height: 10em; 
+.animtitle {
+    /* background: rgb(218, 247, 255); */
+    width: max-content;
+    height: max-content; 
+    margin-top: 1%;
+    margin-left: 17%;
 }
 
-.anim-desc {
-    background: rgb(206, 116, 209);
-    width: 10em;
-    height: 10em; 
+.animdesc {
+    /* background: rgb(206, 116, 209); */
+    width: max-content;
+    height: max-content;
+    margin-left: 8%;
+    margin-top: 2%;
+    font-size: 24px;
 }
 
-.anim-bottom {
-    background-color: rgb(255, 234, 128);
+
+.animbottom {
+    /* background-color: rgb(255, 234, 128); */
     position: fixed;
     bottom: 0;
     left: 2.5%;
@@ -789,7 +752,68 @@ footer {
 
 #frame {
     background-color: orange;
+    border: 0;
     width: 9%;
     height: 90%;
 }
 
+.frame1,
+.frame2 {
+    cursor: pointer;
+}
+
+/* PORTFOLIO - WRITING */
+.libro {
+    background-color: rgb(169, 214, 214);
+    width: 90%;
+    height: 58em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+
+/* CONTACT */
+.thankyou {
+    background-color: rgb(200, 122, 122);
+    width: 30em;
+    height: max-content;
+    margin-top: 6%;
+    margin-left: 21%;
+    font-size: 24px;
+}
+
+.hooty {
+    background-color: rgb(113, 90, 69);
+    width: 30em;
+    height: 40em;
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+}
+
+.web {
+    background-color: rgb(200, 200, 255);
+    width: 50%;
+    height: 48.9em;
+    bottom: 0;
+    position: fixed;
+}
+
+.reach {
+    /* background-color: rgb(187, 246, 187); */
+    width: max-content;
+    font-size: 28px;
+    position: fixed;
+    top: 35%;
+    left: 15%;
+}
+
+.email {
+    /* background-color: rgb(138, 138, 247); */
+    font-size: 24px;
+    width: max-content;
+    position: fixed;
+    top: 45%;
+    left: 25%;
+}

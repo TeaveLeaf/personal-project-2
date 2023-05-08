@@ -1,106 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="#">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="#" />
     <script src="script.js"></script>
     <title>Portfolio | Coding</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="nav">
-        <div class="pole"></div>
-        <div class="navstuff" id="navstuff">
-            <div class="block"></div>
-            <div class="nhome">
-                <img src="Pics/rosescloset.png" alt="TEST ICON" width="50px" height="50px"> <a href="A index.html" class="nav-home">Home</a>
-            </div>
-            <div class="nabout">
-                <img src="#" alt="Icon"> <a href="aboutme.html" class="nav-about">About Me</a>
-            </div>
-            <div class="nport">
-                <img src="#" alt="Icon"> <a href="portfolio.html" class="nav-portfolio" id="porty">Portfolio</a>
-            </div>
-            <div class="pcode">
-                <img src="#" alt="Icon"> <a href="portfolio-coding.html" class="port-code" id="porty">Code</a>
-            </div>
-            <div class="pwrite">
-                <img src="#" alt="Icon"> <a href="portfolio-writing.html" class="port-writing" id="porty">Writing</a>
-            </div>
-            <div class="pdraw">
-                <img src="#" alt="Icon"> <a href="portfolio-drawing.html" class="port-drawing" id="porty">Drawing</a>
-            </div>
-            <div class="panim">
-                <img src="#" alt="Icon"> <a href="portfolio-animation.html" class="port-animation" id="porty">Animation</a>
-            </div>
-            <div class="nresume">
-                <img src="#" alt="Icon"> <a href="resume.html" class="nav-resume">Resume</a>
-            </div>
-            <div class="ncontact">
-                <img src="#" alt="Icon"> <a href="contact.html" class="nav-contact">Contact</a>
-            </div>
+      <div class="pole"></div>
+      <div class="navstuff" id="navstuff">
+        <div class="block"></div>
+        <div class="nhome">
+          <a href="A index.html" class="nav-home">Home</a>
         </div>
+        <div class="nabout">
+          <a href="aboutme.html" class="nav-about">About Me</a>
+        </div>
+        <div class="nport">
+          <a href="portfolio.html" class="nav-portfolio" id="porty"
+            >Portfolio</a
+          >
+        </div>
+        <div class="pcode">
+          <a href="portfolio-coding.html" class="port-code" id="porty">Code</a>
+        </div>
+        <div class="pwrite">
+          <a href="portfolio-writing.html" class="port-writing" id="porty"
+            >Writing</a
+          >
+        </div>
+        <div class="pdraw">
+          <a href="portfolio-drawing.html" class="port-drawing" id="porty"
+            >Drawing</a
+          >
+        </div>
+        <div class="panim">
+          <a href="portfolio-animation.html" class="port-animation" id="porty"
+            >Animation</a
+          >
+        </div>
+        <div class="nresume">
+          <a href="resume.html" class="nav-resume">Resume</a>
+        </div>
+        <div class="ncontact">
+          <a href="contact.html" class="nav-contact">Contact</a>
+        </div>
+      </div>
     </nav>
     <section class="websites">
-        <a class="gameproj" id="codeprojs">
-            <h2>Coin Party</h2>
-        </a>
+      <a class="gameproj" id="codeprojs">
+        <h2>Coin Party</h2>
+      </a>
 
-        <a class="EECU" id="codeprojs">
-            <h2>EECU</h2>
-        </a>
+      <a class="EECU" id="codeprojs">
+        <h2>EECU</h2>
+      </a>
 
-        <a class="proj2" id="codeprojs">
-            <h2>Mental Health</h2>
-        </a>
+      <a class="proj2" id="codeprojs">
+        <h2>Mental Health</h2>
+      </a>
 
-        <a class="zengarden" id="codeprojs">
-            <h2>Zen Garden</h2>
-        </a>
-
+      <a class="zengarden" id="codeprojs">
+        <h2>Zen Garden</h2>
+      </a>
     </section>
-    <a class="code-left" id="code-left">❮</a> <!-- the arrow thingys for the slideshow -->
+    <a class="code-left" id="code-left" onclick="left()">❮</a>
+    <!-- the arrow thingys for the slideshow -->
     <div class="wowow" id="wowow"></div>
     <section id="game project imgs">
-        <img src="#" alt="" class="gpc1" id="carousel">
-        <img src="#" alt="" class="gpc2" id="carousel">
-        <img src="#" alt="" class="gpc3" id="carousel">
-        <img src="#" alt="" class="gpc4" id="carousel">
+      <img src="#" alt="" class="gpc1" id="carousel" />
+      <img src="#" alt="" class="gpc2" id="carousel" />
+      <img src="#" alt="" class="gpc3" id="carousel" />
+      <img src="#" alt="" class="gpc4" id="carousel" />
     </section>
     <section id="EECU project imgs">
-        <img src="#" alt="" class="eecup1" id="carousel">
-        <img src="#" alt="" class="eecup2" id="carousel">
-        <img src="#" alt="" class="eecup3" id="carousel">
-        <img src="#" alt="" class="eecup4" id="carousel">
+      <img src="#" alt="" class="eecup1" id="carousel" />
+      <img src="#" alt="" class="eecup2" id="carousel" />
+      <img src="#" alt="" class="eecup3" id="carousel" />
+      <img src="#" alt="" class="eecup4" id="carousel" />
     </section>
     <section id="proj 2 project imgs">
-        <img src="#" alt="" class="proj21" id="carousel">
-        <img src="#" alt="" class="proj22" id="carousel">
-        <img src="#" alt="" class="proj23" id="carousel">
-        <img src="#" alt="" class="proj24" id="carousel">
+      <img src="#" alt="" class="proj21" id="carousel" />
+      <img src="#" alt="" class="proj22" id="carousel" />
+      <img src="#" alt="" class="proj23" id="carousel" />
+      <img src="#" alt="" class="proj24" id="carousel" />
     </section>
     <section id="zen garden project imgs">
-        <img src="#" alt="" class="zgp1" id="carousel">
-        <img src="#" alt="" class="zgp2" id="carousel">
-        <img src="#" alt="" class="zgp3" id="carousel">
-        <img src="#" alt="" class="zgp4" id="carousel">
+      <img src="#" alt="" class="zgp1" id="carousel" />
+      <img src="#" alt="" class="zgp2" id="carousel" />
+      <img src="#" alt="" class="zgp3" id="carousel" />
+      <img src="#" alt="" class="zgp4" id="carousel" />
     </section>
-    <a class="code-right" id="code-right">❯</a>
+    <a class="code-right" id="code-right" onclick="">❯</a>
 
     <div class="webText">
-        <div class="webTitle">
-            <h1>Coin Party</h1>
-        </div>
-        <div class="webContent">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus. Rhoncus aenean vel elit scelerisque. Arcu dictum varius duis at consectetur lorem donec. Egestas egestas fringilla phasellus faucibus. Volutpat diam ut venenatis tellus in metus vulputate eu scelerisque. Amet mattis vulputate enim nulla. Libero volutpat sed cras ornare arcu dui. Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Pretium fusce id velit ut tortor pretium viverra suspendisse. At quis risus sed vulputate odio ut enim. Id cursus metus aliquam eleifend mi in nulla posuere sollicitudin. Posuere ac ut consequat semper viverra. At volutpat diam ut venenatis tellus in metus vulputate eu. Etiam tempor orci eu lobortis elementum nibh tellus molestie nunc. Neque aliquam vestibulum morbi blandit cursus risus at. Suspendisse sed nisi lacus sed viverra tellus in. Lectus mauris ultrices eros in cursus turpis massa. Pulvinar sapien et ligula ullamcorper malesuada proin.</p>
-        </div>
+      <div class="webTitle">
+        <h1>Coin Party</h1>
+      </div>
+      <div class="webContent">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor
+          vitae purus faucibus ornare suspendisse sed nisi lacus. Rhoncus aenean
+          vel elit scelerisque. Arcu dictum varius duis at consectetur lorem
+          donec. Egestas egestas fringilla phasellus faucibus. Volutpat diam ut
+          venenatis tellus in metus vulputate eu scelerisque. Amet mattis
+          vulputate enim nulla. Libero volutpat sed cras ornare arcu dui. Vitae
+          sapien pellentesque habitant morbi tristique senectus et netus et.
+          Pretium fusce id velit ut tortor pretium viverra suspendisse. At quis
+          risus sed vulputate odio ut enim. Id cursus metus aliquam eleifend mi
+          in nulla posuere sollicitudin. Posuere ac ut consequat semper viverra.
+          At volutpat diam ut venenatis tellus in metus vulputate eu. Etiam
+          tempor orci eu lobortis elementum nibh tellus molestie nunc. Neque
+          aliquam vestibulum morbi blandit cursus risus at. Suspendisse sed nisi
+          lacus sed viverra tellus in. Lectus mauris ultrices eros in cursus
+          turpis massa. Pulvinar sapien et ligula ullamcorper malesuada proin.
+        </p>
+      </div>
     </div>
 
-    <a href="https://coinpartykiro.netlify.app/" class="takeme">Take me there!</a>
+    <a href="https://coinpartykiro.netlify.app/" class="takeme"
+      >Take me there!</a
+    >
 
     <span class="openclose" id="openclose" onclick="openNav()">Navigation</span>
-
-</body>
+  </body>
 </html>
