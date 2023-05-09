@@ -1,0 +1,819 @@
+* {
+    margin: 0;
+}
+
+/* NAV BAR */
+nav {
+    background-color: rgb(233, 167, 167);
+}
+
+/* COOL SLIDING STUFF */
+.navstuff {
+    background-color: rgb(97, 97, 181);
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Makes it into a column */
+    overflow-x: hidden; /* Hides the nav stuff */
+    padding-top: 60px;
+    transition: 0.3s;
+    font-size: 24px;
+}
+
+.navstuff a {
+    padding: 10px 8px 8px 32px;
+    display: block;
+}
+
+.openclose {
+    background-color: rgb(186, 163, 243);
+    width: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+    font-size: 30px;
+}
+
+.openclose:hover {
+    cursor: pointer;
+}
+
+#main {
+    transition: margin-left 0.5s; /* Slides the main to the right when nav opened */
+}
+
+.port-code,
+.port-writing,
+.port-drawing,
+.port-animation {
+    margin-left: 25px;
+}
+
+.nav-about,
+.nav-resume,
+.nav-contact,
+.nav-portfolio {
+    margin-top: 20px;
+}
+
+.nhome {
+    /* background-color: rgb(210, 111, 111); */
+    display: flex;
+    flex-direction: row;
+}
+
+.nabout {
+    /* background-color: rgb(202, 127, 74); */
+    display: flex;
+    flex-direction: row;
+}
+
+.nport {
+    /* background-color: rgb(199, 105, 105); */
+    display: flex;
+    flex-direction: row;
+}
+
+.pcode {
+    /* background-color: rgb(203, 146, 99); */
+    display: flex;
+    flex-direction: row;
+    /* padding-left: 23px; */
+}
+
+.pwrite {
+    /* background-color: rgb(214, 119, 119); */
+    display: flex;
+    flex-direction: row;
+}
+
+.pdraw {
+    /* background-color: rgb(197, 155, 110); */
+    display: flex;
+    flex-direction: row;
+}
+
+.panim {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+}
+
+.nresume {
+    /* background-color: rgb(255, 128, 0); */
+    display: flex;
+    flex-direction: row;
+}
+
+.ncontact {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* MORE STYLE STUFF */
+.navstuff a {
+    text-decoration: none;
+}
+
+.navstuff a:hover {
+    color: aqua;
+}
+
+
+
+/* DECOR */
+/* .tree {
+    position: absolute;
+    background-color: rgb(57, 130, 57);
+    width: 100px;
+    height: 100px;
+    left: 13em;
+    bottom: 17em;
+} */
+
+.title img {
+    width: 60em;
+    height: 15em;
+    position: absolute;
+    left: 25%;
+}
+
+#welp1 {
+    position: absolute;
+    font-size: 24px;
+    left: 30%;
+}
+
+#welp2 {
+    position: absolute;
+    font-size: 24px;
+    left: 23.5%;
+    top: 35%;
+}
+
+.grass {
+    bottom: 0;
+    position: absolute;
+    background-color: rgb(0, 178, 0, 0.3);
+    width: 100%;
+    height: 25%;
+    transition: 0.5s;
+}
+
+.blanket {
+    position: absolute;
+    background-color: pink;
+    width: 45em;
+    height: 6em;
+    left: 14em;
+    bottom: 10.3em;
+    transition: 0.5;
+}
+
+.lantern {
+    position: absolute;
+    background-color: yellow;
+    width: 80px;
+    height: 100px;
+    left: 36em;
+    bottom: 18em;
+}
+
+.lantern:hover {
+    cursor: pointer;
+}
+
+.basket {
+    background-color: cornflowerblue;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    left: 37em;
+    bottom: 11em;
+}
+
+.rudy {
+    position: absolute;
+    background-color: bisque;
+    width: 120px;
+    height: 150px;
+    left: 47em;
+    bottom: 14em;
+}
+
+.rudy:hover {
+    cursor: grab;
+}
+
+
+
+
+/* OTHER PAGES */
+.home-text {
+    background-color: rgb(176, 111, 176);
+}
+
+.aboutme {
+    position: absolute;
+    background-color: aqua;
+    width: 8em;
+    height: 13em;
+    left: 18em;
+    bottom: 14.5em;
+}
+
+.aboutme a{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.resume {
+    position: absolute;
+    background-color: brown;
+    width: 100px;
+    height: 60px;
+    left: 19em;
+    bottom: 10.5em;
+}
+
+.contact {
+    background-color: chocolate;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 17em;
+    bottom: 43em;
+}
+
+.portfolio {
+    position: absolute;
+    background-color: orange;
+    width: 12em;
+    height: 15em;
+    right: 25em;
+    bottom: 13em;
+}
+
+
+/* FOOTER */
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+/*  Jon's home     *                    */
+/*                   *                  */
+/*                  *                   */
+/*                  _|_______           */
+/*                 /         \          */
+/*                /___________\         */
+/*                |  _     _  |         */
+/*                | |_| _ |_| |         */
+/*                | |_|| ||_| |         */
+/* _______________|____|_|____|________ */
+
+
+/* ABOUT ME */
+.me-closeup {
+    position: absolute;
+    background-color: rgb(174, 210, 255);
+    width: 50em;
+    height: 60em;
+    bottom: 0;
+    left: 10%;
+}
+
+.me-info {
+    background-color: rgb(167, 167, 255);
+    width: 50em;
+    height: 55em;
+    margin-top: 5%;
+    margin-left: 55%;
+}
+
+.name {
+    width: 15em;
+    height: 6em;
+}
+
+
+/* RESUME */
+.actResume {
+    background-color: #bd8282;
+    width: 70%;
+    height: 57em;
+    margin-top: 3%;
+}
+
+.bug {
+    background-color: green;
+    width: 5em;
+    height: 5em;
+    position: fixed;
+    right: 10%;
+    top: 20%;
+}
+
+
+
+
+/* PORTFOLIO */
+.portfoliopage {
+    background-color: black;
+}
+
+.scope {
+    background-color: rgb(193, 172, 235);
+    width: 65em;
+    height: 65em;
+    border-radius: 50%;
+    display: block;     /* how to center things */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.coding {
+    position: absolute;
+    background-color: red;
+    top: 15%;
+    left: 49%;
+}
+
+.writing {
+    position: absolute;
+    background-color: orange;
+    top: 48%;
+    left: 33%;
+}
+
+.drawing {
+    position: absolute;
+    background-color: yellow;
+    top: 48%;
+    right: 33%;
+}
+
+.animation {
+    position: absolute;
+    background-color: green;
+    bottom: 15%;
+    left: 48%;
+}
+
+
+
+
+
+
+/* PORTFOLIO - CODING */
+.websites {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.3%;
+}
+
+#codeprojs {
+    width: 12em;
+    height: 8em;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%; */
+}
+
+/* when u click the image moves up do u can see it better */
+.gameproj {
+    background-color: rgb(223, 140, 140);
+    text-align: center;
+    border: 2px solid rgb(109, 109, 255);
+}
+
+.gameproj h2 {
+    /* background-color: rgb(190, 195, 252); */
+    padding-top: 25%;
+    width: 100%;
+    height: 62%;
+}
+
+.gameproj:hover {
+    background-color: rgb(181, 110, 110);
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.gameproj h2:hover {
+    padding-top: 5%;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 92%;
+}
+
+.gameproj:active {
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: 0.1s;
+}
+
+
+.EECU {
+    background-color: rgb(241, 185, 105);
+    text-align: center;
+}
+.EECU h2 {
+    padding-top: 25%;
+    width: 100%;
+    height: 62%;
+}
+.EECU:hover {
+    background-color: rgb(207, 162, 99);
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.EECU h2:hover {
+    padding-top: 5%;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 92%;
+}
+
+.EECU:active {
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: 0.1s;
+}
+
+
+.proj2 {
+    background-color: rgb(248, 232, 144);
+    text-align: center;
+}
+.proj2 h2 {
+    padding-top: 25%;
+    width: 100%;
+    height: 62%;
+}
+.proj2:hover {
+    background-color: rgb(211, 197, 118);
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.proj2 h2:hover {
+    padding-top: 5%;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 92%;
+}
+
+.proj2:active {
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: 0.1s;
+}
+
+
+.zengarden {
+    background-color: rgb(155, 239, 155);
+    text-align: center;
+}
+.zengarden h2 {
+    padding-top: 25%;
+    width: 100%;
+    height: 62%;
+}
+.zengarden:hover {
+    background-color: rgb(128, 191, 128);
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.zengarden h2:hover {
+    padding-top: 5%;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 92%;
+}
+
+.zengarden:active {
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: 0.1s;
+}
+
+/* slideshow */
+#carousel {
+    background-color: gray;
+    position: fixed;
+    width: 39em;
+    height: 25em;
+    left: 14em;
+    top: 18em;
+}
+
+/* idk man, work on later */
+.gcp1 {
+    background-color: red;
+    /* background-image: url(Pics/rosescloset.png); */
+}
+.gcp2 {
+    background-color: orange;
+}
+.gcp3 {
+    background-color: yellow;
+}
+.gcp4 {
+    background-color: green;
+}
+
+/* slideshow buttons */
+.code-left {
+    color: rgb(0, 0, 0, 0.6);
+    cursor: pointer;
+    font-size: 30px;
+    position: fixed;
+    left: 9.3%;
+    top: 45%;
+    text-align: center;
+    width: 1em;
+    height: 1.5em;
+}
+
+.code-left:hover {
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    color: rgb(0, 0, 0, 1);
+    transition: 0.3s;
+    border-radius: 10%;
+}
+
+.code-right {
+    color: rgb(0, 0, 0, 0.6);
+    cursor: pointer;
+    font-size: 30px;
+    position: fixed;
+    left: 43%;
+    top: 45%;
+    text-align: center;
+    width: 1em;
+    height: 1.5em;
+}
+
+.code-right:hover {
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    color: rgb(0, 0, 0, 1);
+    transition: 0.3s;
+    border-radius: 10%;
+}
+
+.webText {
+    text-align: center;
+    position: fixed;
+    width: 30%;
+    right: 15%;
+    top: 25%;
+    height: auto;
+}
+
+.webTitle {
+    font-size: 24px;
+}
+
+.webContent {
+    margin-top: 2.5%;
+    font-size: 20px;
+    text-align: left;
+}
+
+.takeme {
+    background-color: violet;
+    position: fixed;
+    border-radius: 5%;
+    left: 23.7%;
+    bottom: 27%;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.takeme:hover {
+    background-color: rgb(217, 116, 217);
+}
+
+.takeme:active {
+    background-color: rgb(145, 83, 164);
+    color: blue;
+}
+
+
+
+
+
+
+/* PORTFOLIO - DRAWING */
+.drawing-title {
+    background-color: gray;
+    width: 30em;
+    height: 10em;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.art-pieces {
+    background-color: rgb(218, 255, 243);
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.art1 {
+    background-color: gray;
+    width: 256px;
+    height: 256px;
+}
+
+.art2 {
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+}
+
+.art3 {
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+}
+
+.art4 {
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+/* PORTFOLIO - ANIMATION !! */
+.animationstuff {
+    /* background-color: rgb(255, 231, 235); */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.toolbar {
+    background-color: rgb(205, 129, 129);
+    width: 10%;
+    height: 35em;
+    margin-top: 3%;
+    margin-left: 1%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#tool {
+    background-color: rgb(92, 92, 206);
+    width: 40%;
+    height: 9%;
+    margin-left: 27%;
+}
+
+.animcanvas {
+    background-color: rgb(255, 217, 147);
+    width: 86%;
+    height: 50em;
+    margin-top: 3%;
+    margin-left: 1%;
+}
+
+.animvid {
+    /* background: rgb(146, 192, 255); */
+    width: 40%;
+    height: 50%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.animtext {
+    /* background: rgb(125, 189, 113); */
+    width: 30em;
+    height: max-content; 
+    margin-left: 50%;
+    margin-top: -30%;
+    font-size: 24px;
+}
+
+.animtitle {
+    /* background: rgb(218, 247, 255); */
+    width: max-content;
+    height: max-content; 
+    margin-top: 1%;
+    margin-left: 17%;
+}
+
+.animdesc {
+    /* background: rgb(206, 116, 209); */
+    width: max-content;
+    height: max-content;
+    margin-left: 8%;
+    margin-top: 2%;
+    font-size: 24px;
+}
+
+
+.animbottom {
+    /* background-color: rgb(255, 234, 128); */
+    position: fixed;
+    bottom: 0;
+    left: 2.5%;
+    width: 95%;
+    height: 8.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#frame {
+    background-color: orange;
+    border: 0;
+    width: 9%;
+    height: 90%;
+}
+
+.frame1,
+.frame2 {
+    cursor: pointer;
+}
+
+/* PORTFOLIO - WRITING */
+.libro {
+    background-color: rgb(169, 214, 214);
+    width: 90%;
+    height: 58em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+
+/* CONTACT */
+.thankyou {
+    background-color: rgb(200, 122, 122);
+    width: 30em;
+    height: max-content;
+    margin-top: 6%;
+    margin-left: 21%;
+    font-size: 24px;
+}
+
+.hooty {
+    background-color: rgb(113, 90, 69);
+    width: 30em;
+    height: 40em;
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+}
+
+.web {
+    background-color: rgb(200, 200, 255);
+    width: 50%;
+    height: 48.9em;
+    bottom: 0;
+    position: fixed;
+}
+
+.reach {
+    /* background-color: rgb(187, 246, 187); */
+    width: max-content;
+    font-size: 28px;
+    position: fixed;
+    top: 35%;
+    left: 15%;
+}
+
+.email {
+    /* background-color: rgb(138, 138, 247); */
+    font-size: 24px;
+    width: max-content;
+    position: fixed;
+    top: 45%;
+    left: 25%;
+}
