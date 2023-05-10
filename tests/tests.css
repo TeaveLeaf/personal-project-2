@@ -67,6 +67,12 @@
     }
 }
 
+@keyframes opactrans {
+    0% {opacity: 0.9;}
+    50% {opacity: 1;}
+    100% {opacity: 0.9;}
+}
+
 
 .test {
     width: 100px;
@@ -79,7 +85,7 @@
     position: relative;
     /* overflow: hidden; */
     background-color: red;
-    animation: movemore 2s linear infinite;
+    animation: opactrans 2s linear infinite;
     /* animation-delay: 0.5s; */
 }
 

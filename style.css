@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Julius;
+    src: url(Fonts/JuliusSansOne-Regular.woff);
+}
+
+@font-face {
+    font-family: Questrial;
+    src: url(Fonts/Questrial-Regular.woff);
+}
+
 * {
     margin: 0;
 }
@@ -156,6 +166,7 @@ nav {
 }
 
 #welp2 {
+    color: white;
     position: absolute;
     font-size: 24px;
     left: 23.5%;
@@ -163,31 +174,46 @@ nav {
 }
 
 .grass {
+    background-image: url(Pics/grass.png);
     bottom: 0;
     position: absolute;
-    background-color: rgb(60, 109, 60);
+    /* background-color: rgb(60, 109, 60); */
     width: 100%;
-    height: 25%;
+    height: 26%;
     transition: 0.5s;
 }
 
 .blanket {
+    background-image: url(Pics/blanket.png);
+    background-size: 100% 195%;
     position: absolute;
-    background-color: pink;
+    /* background-color: pink; */
     width: 45em;
-    height: 6em;
+    height: 8em;
     left: 14em;
-    bottom: 10.3em;
+    bottom: 8.6em;
     transition: 0.5;
+    /* 99.2x720 */
+}
+
+.lanternbg {
+    position: fixed;
+    width: 80px;
+    height: 100px;
+    left: 30em;
+    bottom: 15em;
 }
 
 .lantern {
-    position: absolute;
-    background-color: yellow;
+    background: none;
+    background-image: url(Pics/lantern-off.png);
+    position: fixed;
     width: 80px;
     height: 100px;
     left: 36em;
     bottom: 18em;
+    border: none;
+    /* 1200x960 */
 }
 
 .lantern:hover {
@@ -195,12 +221,15 @@ nav {
 }
 
 .basket {
-    background-color: cornflowerblue;
+    /* background-image: url(Pics/basket.png); */
+    background-size: contain;
+    /* background-color: cornflowerblue; */
     position: absolute;
     width: 150px;
     height: 100px;
     left: 37em;
     bottom: 11em;
+    /* 750x500 */
 }
 
 .rudy {
