@@ -6,6 +6,13 @@ bg color
 rgb(28,25,53)
 
 
+resolutions
+2560x1440 big boyz          
+1920x1080 boyz
+1280x720 slightly smaller
+481x768 tablets
+320x480 phones
+
 
 
 

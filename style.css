@@ -1,10 +1,10 @@
 @font-face {
-    font-family: Julius;
+    font-family: "Julius";
     src: url(Fonts/JuliusSansOne-Regular.woff);
 }
 
 @font-face {
-    font-family: Questrial;
+    font-family: "Questrial";
     src: url(Fonts/Questrial-Regular.woff);
 }
 
@@ -13,10 +13,30 @@
 }
 
 body {
-    background-color: rgb(25, 28, 53);
-    background-image: url(Pics/background-stars.png);
+    /* background-color: rgb(25, 28, 53);
+    background-image: url(Pics/background-stars.png); */
 
 }
+
+#bgSize {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.starsBg {
+    /* background-color: #d75a5a; */
+    background-color: rgb(25, 28, 53);
+    background-image: url(Pics/background-stars.png);
+}
+
+.treesBg {
+    background-image: url(Pics/trees.png);
+    background-size: cover;
+}
+
 
 /* NAV BAR */
 nav {
@@ -39,13 +59,19 @@ nav {
 }
 
 .navstuff a {
+    font-family: 'Julius';
     padding: 10px 8px 8px 32px;
     display: block;
 }
 
+.openclose:hover {
+    cursor: pointer;
+}
+
 .openclose {
     background-color: rgb(186, 163, 243);
-    width: 150px;
+    width: 70px;
+    height: 70px;
     position: fixed;
     top: 0;
     left: 0;
@@ -53,7 +79,16 @@ nav {
     font-size: 30px;
 }
 
-.openclose:hover {
+.gohome {
+    background-color: red;
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    top: 9%;
+    transition: 0.3s;
+}
+
+.gohome:hover {
     cursor: pointer;
 }
 
@@ -175,6 +210,7 @@ nav {
 
 .grass {
     background-image: url(Pics/grass.png);
+    background-size: contain;
     bottom: 0;
     position: absolute;
     /* background-color: rgb(60, 109, 60); */
@@ -253,7 +289,7 @@ nav {
     background-color: rgb(176, 111, 176);
 }
 
-.aboutme {
+.me {
     position: absolute;
     background-color: aqua;
     width: 8em;
@@ -263,7 +299,7 @@ nav {
 }
 
 .aboutme a{
-    background-color: red;
+    /* background-color: red; */
     width: 100px;
     height: 100px;
 }
@@ -277,22 +313,42 @@ nav {
     bottom: 10.5em;
 }
 
+.restex {
+    /* background-color: #bd8282; */
+    color: white;
+    position: fixed;
+    left: 17.3em;
+    bottom: 11em;
+    text-shadow: 2px 2px 2px black;
+}
+
 .contact {
-    background-color: chocolate;
-    width: 100px;
-    height: 100px;
+    /* background-color: chocolate; */
+    /* width: 100px;
+    height: 100px; */
     position: absolute;
     left: 17em;
     bottom: 43em;
 }
 
+a.tree {
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+a.tree:hover {
+    color: rgb(212, 220, 229);
+}
+
+
 .portfolio {
     position: absolute;
     background-color: orange;
-    width: 12em;
-    height: 15em;
-    right: 25em;
-    bottom: 13em;
+    /* width: 12em;
+    height: 15em; */
+    right: 30%;
+    bottom: 35%;
 }
 
 
