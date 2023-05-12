@@ -12,10 +12,8 @@
     margin: 0;
 }
 
-body {
-    /* background-color: rgb(25, 28, 53);
-    background-image: url(Pics/background-stars.png); */
-
+* p, h1, h2, h4 {
+    font-family: "Questrial";
 }
 
 #bgSize {
@@ -33,7 +31,7 @@ body {
 }
 
 .treesBg {
-    background-image: url(Pics/trees.png);
+    background-image: url(Pics/trees.PNG);
     background-size: cover;
 }
 
@@ -202,7 +200,7 @@ nav {
 
 #welp2 {
     color: white;
-    position: absolute;
+    position: fixed;
     font-size: 24px;
     left: 23.5%;
     top: 35%;
@@ -311,6 +309,7 @@ nav {
     height: 60px;
     left: 19em;
     bottom: 10.5em;
+    /* 600x350 */
 }
 
 .restex {
@@ -359,6 +358,7 @@ footer {
     bottom: 12px;
     display: flex;
     justify-content: center;
+    color: rgb(0, 0, 0, 0.5);
 }
 
 /*  Jon's home     *                    */
@@ -760,15 +760,15 @@ footer {
 
 /* PORTFOLIO - ANIMATION !! */
 .animationstuff {
-    /* background-color: rgb(255, 231, 235); */
+    background-color: rgb(245, 243, 243);
     width: 100%;
-    height: auto;
+    height: 100vh;
     display: flex;
     flex-direction: row;
 }
 
 .toolbar {
-    background-color: rgb(205, 129, 129);
+    background-color: rgb(255, 255, 255);
     width: 10%;
     height: 35em;
     margin-top: 3%;
@@ -787,11 +787,13 @@ footer {
 }
 
 .animcanvas {
-    background-color: rgb(255, 217, 147);
+    background-color: rgb(255, 255, 255);
     width: 86%;
     height: 50em;
     margin-top: 3%;
     margin-left: 1%;
+    /* border: 2px solid black; */
+    border-radius: 4px 4px;
 }
 
 .animvid {
@@ -842,16 +844,29 @@ footer {
 }
 
 #frame {
-    background-color: orange;
+    /* background-color: orange; */
     border: 0;
     width: 9%;
     height: 90%;
+    border-radius: 4px 4px;
 }
 
 .frame1,
-.frame2 {
-    cursor: pointer;
+.frame2,
+.frame3,
+.frame4,
+.frame5,
+.frame6,
+.frame7 {
+    background-color: rgb(255, 255, 255);
+    border: 1.5px solid rgb(151, 151, 151);
 }
+
+.playbutton {
+    background-color: rgb(255, 255, 255);
+    background-image: url(Pics/play.PNG);
+}
+
 
 /* PORTFOLIO - WRITING */
 .libro {
