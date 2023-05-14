@@ -39,11 +39,13 @@
 /* NAV BAR */
 nav {
     background-color: rgb(233, 167, 167);
+    background-image: url(Pics/navbg.png);
 }
 
 /* COOL SLIDING STUFF */
 .navstuff {
     background-color: rgb(97, 97, 181);
+        background-image: url(Pics/navbg.png);
     height: 100%;
     width: 0;
     position: fixed;
