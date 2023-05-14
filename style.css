@@ -44,8 +44,7 @@ nav {
 
 /* COOL SLIDING STUFF */
 .navstuff {
-    background-color: rgb(97, 97, 181);
-        background-image: url(Pics/navbg.png);
+    background-color: rgb(27, 27, 61);
     height: 100%;
     width: 0;
     position: fixed;
@@ -62,6 +61,11 @@ nav {
     font-family: 'Julius';
     padding: 10px 8px 8px 32px;
     display: block;
+    color: white;
+}
+
+#navlink:hover {
+    color: rgb(150, 146, 206);
 }
 
 .openclose:hover {
