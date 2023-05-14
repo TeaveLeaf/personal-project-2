@@ -371,7 +371,7 @@ a.tree:hover {
 footer {
     position: absolute;
     width: 100%;
-    bottom: 12px;
+    bottom: 0;
     display: flex;
     justify-content: center;
     color: rgb(0, 0, 0, 0.5);
