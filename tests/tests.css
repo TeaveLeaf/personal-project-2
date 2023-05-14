@@ -103,3 +103,42 @@
     animation: moves 2s linear infinite;
     /* animation-delay: 0.5s; */
 }
+
+* {
+    margin: 0;
+}
+
+.testsize {
+    /* background-color: aqua; */
+    width: 100%;
+    height: 100px;
+}
+
+/* Media queries and whatever else that's not the main styling */
+
+@media only screen and (max-width: 600px) {
+    .testsize {
+        background: red;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .testsize {
+        background: green;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .testsize {
+        background: orange;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .testsize {
+        background: pink;
+    }
+}

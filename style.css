@@ -45,6 +45,8 @@ nav {
 /* COOL SLIDING STUFF */
 .navstuff {
     background-color: rgb(27, 27, 61);
+    background-image: url(Pics/background-stars.png);
+    background-size: cover;
     height: 100%;
     width: 0;
     position: fixed;
@@ -74,13 +76,16 @@ nav {
 
 .openclose {
     background-color: rgb(186, 163, 243);
-    width: 70px;
-    height: 70px;
+    background-image: url(Pics/navicon.png);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
     position: fixed;
-    top: 0;
+    top: 2%;
     left: 0;
     transition: 0.3s;
     font-size: 30px;
+    /* 630x630 */
 }
 
 .gohome {
@@ -194,6 +199,7 @@ nav {
 .title img {
     width: 60em;
     height: 15em;
+    background-size: cover;
     position: absolute;
     left: 25%;
 }
@@ -310,12 +316,16 @@ nav {
 
 .resume {
     position: absolute;
-    background-color: brown;
+    /* background-color: brown; */
     width: 100px;
     height: 60px;
     left: 19em;
     bottom: 10.5em;
     /* 600x350 */
+}
+
+.resume:hover {
+    color: rgba(255, 0, 0, 0.6);
 }
 
 .restex {
@@ -929,3 +939,9 @@ footer {
     top: 45%;
     left: 25%;
 }
+
+
+
+
+
+/* Media queries and whatever else that's not the main styling */
