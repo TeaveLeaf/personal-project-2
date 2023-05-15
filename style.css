@@ -876,4 +876,17 @@ footer {
         flex-direction: column;
     }
 
+    /* CODING */
+    .carousel {
+        width: 90%;
+    }
+    .slideshow {
+        margin-left: 0;
+    }
+    .webText {
+        width: 60%;
+        top: 50%;
+        right: 30%;
+    }
+
 }
