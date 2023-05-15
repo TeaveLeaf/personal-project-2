@@ -99,3 +99,42 @@ function slideshowMinus() {
     }
 }
 
+let animCounter = 0;
+function playAnim1() {
+    if(animCounter == 0) {
+        document.getElementById("art1").style.animation = "spin 2s";
+        console.log("lala");
+        animCounter = animCounter + 1;
+    } else if (animCounter == 1){
+        document.getElementById("art1").style.animation = "spinspin 2s";
+        console.log("okok");
+        animCounter = animCounter - 1;
+    }
+
+}
+
+let animCounter2 = 0;
+function playAnim2() {
+    if(animCounter2 == 0) {
+        document.getElementById("art2").style.animation = "spin 2s";
+        console.log("dada");
+        animCounter2 = animCounter2 + 1;
+    } else if (animCounter2 == 1){
+        document.getElementById("art2").style.animation = "spinspin 2s";
+        console.log("nknk");
+        animCounter2 = animCounter2 - 1;
+    }
+}
+
+let animCounter3 = 0;
+function playAnim3() {
+    if(animCounter3 == 0) {
+        document.getElementById("art3").style.animation = "spin 2s";
+        console.log("sasa");
+        animCounter3 = animCounter3 + 1;
+    } else if (animCounter3 == 1){
+        document.getElementById("art3").style.animation = "spinspin 2s";
+        console.log("ekek");
+        animCounter3 = animCounter3 - 1;
+    }
+}

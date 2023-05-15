@@ -567,6 +567,24 @@ footer {
 
 
 /* PORTFOLIO - DRAWING */
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spinspin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
 .drawing-title {
     background-color: gray;
     width: 30em;
@@ -590,6 +608,8 @@ footer {
     background-color: gray;
     width: 256px;
     height: 256px;
+    cursor: pointer;
+    animation: none;
 }
 
 .art-pieces p {
@@ -602,12 +622,16 @@ footer {
     background-color: gray;
     width: 25em;
     height: max-content;
+    cursor: pointer;
+    animation: none;
 }
 
 .art3 {
     background-color: gray;
     width: 25em;
     height: max-content;
+    cursor: pointer;
+    animation: none;
 }
 
 

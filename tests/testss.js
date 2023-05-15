@@ -11,3 +11,18 @@ function test() {
         console.log("red");
     }
 }
+
+
+let animCounter = 0;
+function playAnim1() {
+    document.getElementById("art1").style.animation = "spin 2s";
+    console.log("lala");
+}
+
+function playAnim2() {
+    document.getElementById("art2").style.animation = "spin 2s;";
+}
+
+function playAnim3() {
+    document.getElementById("art3").style.animation = "spin 2s;";
+}
