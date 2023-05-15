@@ -821,7 +821,34 @@ footer {
 
 /* phones */
 @media only screen and (max-width: 600px) {
-    .testsize {
-        background: red;
+    .resume {
+        display: none;
     }
+    .lanternbg {
+        display: none;
+    }
+    .lantern {
+        display: none;
+    }
+    .basket {
+        display: none;
+    }
+    .blanket {
+        display: none;
+    }
+    .title img{
+        left: 4%;
+        width: 35em;
+        height: 10em;
+    }
+    #welp2 {
+        left: 7%;
+    }
+    .grass {
+        background-size: cover;
+    }
+
+    
+
+
 }
