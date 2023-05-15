@@ -420,6 +420,7 @@ footer {
 .actResume {
     background-color: #bd8282;
     background-image: url(Pics/resume.png);
+    background-size: cover;
     width: 30%;
     height: 57em;
     margin-top: 3%;
