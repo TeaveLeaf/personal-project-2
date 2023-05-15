@@ -378,7 +378,7 @@ a.tree:hover {
 
 /* FOOTER */
 footer {
-    position: absolute;
+    position: fixed;
     width: 100%;
     bottom: 0;
     display: flex;
