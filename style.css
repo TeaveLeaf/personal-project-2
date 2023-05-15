@@ -371,7 +371,7 @@ a.tree:hover {
 footer {
     position: absolute;
     width: 100%;
-    bottom: 0;
+    bottom: 12px;
     display: flex;
     justify-content: center;
     color: rgb(0, 0, 0, 0.5);
@@ -482,207 +482,41 @@ footer {
 
 
 /* PORTFOLIO - CODING */
-.websites {
+.slideshow {
+    /* background-color: red; */
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 45%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0.3%;
+    margin-top: 15%;
+    margin-left: 10%;
 }
 
-#codeprojs {
-    width: 12em;
-    height: 8em;
-    /* display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%; */
+.ssBack {
+    /* background-color: blue; */
+    width: 3%;
+    height: 23em;
 }
 
-/* when u click the image moves up do u can see it better */
-.gameproj {
-    background-color: rgb(223, 140, 140);
-    text-align: center;
-    border: 2px solid rgb(109, 109, 255);
+.carousel {
+    background-color: brown;
+    background-size: cover;
+    width: 40%;
+    height: 23em;
 }
 
-.gameproj h2 {
-    /* background-color: rgb(190, 195, 252); */
-    padding-top: 25%;
+.ssForward {
+    /* background-color: aqua; */
+    width: 3%;
+    height: 23em;
+}
+
+.ssBut {
+    background-color: none;
+    border: none;
+    color: none;
     width: 100%;
-    height: 62%;
-}
-
-.gameproj:hover {
-    background-color: rgb(181, 110, 110);
-    text-align: center;
+    font-size: 25px;
+    top: 50%;
     cursor: pointer;
-    transition: 0.3s;
-}
-
-.gameproj h2:hover {
-    padding-top: 5%;
-    cursor: pointer;
-    transition: 0.3s;
-    height: 92%;
-}
-
-.gameproj:active {
-    background-color: rgba(0, 0, 0, 0.6);
-    transition: 0.1s;
-}
-
-
-.EECU {
-    background-color: rgb(241, 185, 105);
-    text-align: center;
-}
-.EECU h2 {
-    padding-top: 25%;
-    width: 100%;
-    height: 62%;
-}
-.EECU:hover {
-    background-color: rgb(207, 162, 99);
-    text-align: center;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.EECU h2:hover {
-    padding-top: 5%;
-    cursor: pointer;
-    transition: 0.3s;
-    height: 92%;
-}
-
-.EECU:active {
-    background-color: rgba(0, 0, 0, 0.6);
-    transition: 0.1s;
-}
-
-
-.proj2 {
-    background-color: rgb(248, 232, 144);
-    text-align: center;
-}
-.proj2 h2 {
-    padding-top: 25%;
-    width: 100%;
-    height: 62%;
-}
-.proj2:hover {
-    background-color: rgb(211, 197, 118);
-    text-align: center;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.proj2 h2:hover {
-    padding-top: 5%;
-    cursor: pointer;
-    transition: 0.3s;
-    height: 92%;
-}
-
-.proj2:active {
-    background-color: rgba(0, 0, 0, 0.6);
-    transition: 0.1s;
-}
-
-
-.zengarden {
-    background-color: rgb(155, 239, 155);
-    text-align: center;
-}
-.zengarden h2 {
-    padding-top: 25%;
-    width: 100%;
-    height: 62%;
-}
-.zengarden:hover {
-    background-color: rgb(128, 191, 128);
-    text-align: center;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.zengarden h2:hover {
-    padding-top: 5%;
-    cursor: pointer;
-    transition: 0.3s;
-    height: 92%;
-}
-
-.zengarden:active {
-    background-color: rgba(0, 0, 0, 0.6);
-    transition: 0.1s;
-}
-
-/* slideshow */
-#carousel {
-    background-color: gray;
-    position: fixed;
-    width: 39em;
-    height: 25em;
-    left: 14em;
-    top: 18em;
-}
-
-/* idk man, work on later */
-.gcp1 {
-    background-color: red;
-    /* background-image: url(Pics/rosescloset.png); */
-}
-.gcp2 {
-    background-color: orange;
-}
-.gcp3 {
-    background-color: yellow;
-}
-.gcp4 {
-    background-color: green;
-}
-
-/* slideshow buttons */
-.code-left {
-    color: rgb(0, 0, 0, 0.6);
-    cursor: pointer;
-    font-size: 30px;
-    position: fixed;
-    left: 9.3%;
-    top: 45%;
-    text-align: center;
-    width: 1em;
-    height: 1.5em;
-}
-
-.code-left:hover {
-    /* background-color: rgba(0, 0, 0, 0.2); */
-    color: rgb(0, 0, 0, 1);
-    transition: 0.3s;
-    border-radius: 10%;
-}
-
-.code-right {
-    color: rgb(0, 0, 0, 0.6);
-    cursor: pointer;
-    font-size: 30px;
-    position: fixed;
-    left: 43%;
-    top: 45%;
-    text-align: center;
-    width: 1em;
-    height: 1.5em;
-}
-
-.code-right:hover {
-    /* background-color: rgba(0, 0, 0, 0.2); */
-    color: rgb(0, 0, 0, 1);
-    transition: 0.3s;
-    border-radius: 10%;
 }
 
 .webText {

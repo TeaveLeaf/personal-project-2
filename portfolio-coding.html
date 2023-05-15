@@ -44,7 +44,7 @@
         </div>
       </div>
     </nav>
-    <section class="websites">
+    <!-- <section class="websites">
       <a class="gameproj" id="codeprojs">
         <h2>Coin Party</h2>
       </a>
@@ -60,9 +60,8 @@
       <a class="zengarden" id="codeprojs">
         <h2>Zen Garden</h2>
       </a>
-    </section>
-    <a class="code-left" id="code-left" onclick="left()">❮</a>
-    <!-- the arrow thingys for the slideshow -->
+    </section> -->
+    <!-- <a class="code-left" id="code-left" onclick="left()">❮</a>
     <div class="wowow" id="wowow"></div>
     <section id="game project imgs">
       <img src="#" alt="" class="gpc1" id="carousel" />
@@ -88,13 +87,23 @@
       <img src="#" alt="" class="zgp3" id="carousel" />
       <img src="#" alt="" class="zgp4" id="carousel" />
     </section>
-    <a class="code-right" id="code-right" onclick="">❯</a>
+    <a class="code-right" id="code-right" onclick="">❯</a> -->
+
+    <div class="slideshow">
+      <div class="ssBack">
+        <button class="ssBut" >❮</button>
+      </div>
+      <img class="carousel" id="carousel" src="Pics/gameproj.png" alt="Slideshow"></img>
+      <div class="ssForward">
+        <button class="ssBut" onclick="slideshowPlus()">❯</button>
+      </div>
+    </div>
 
     <div class="webText">
       <div class="webTitle">
-        <h1>Coin Party</h1>
+        <h1 id="webTitle">Coin Party</h1>
       </div>
-      <div class="webContent">
+      <div class="webContent" id="webContent">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor
@@ -116,9 +125,9 @@
       </div>
     </div>
 
-    <a href="https://coinpartykiro.netlify.app/" class="takeme"
+    <!-- <a href="https://coinpartykiro.netlify.app/" class="takeme"
       >Take me there!</a
-    >
+    > -->
 
     <span class="openclose" id="openclose" onclick="openNav()"></span>
   </body>
