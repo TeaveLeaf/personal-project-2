@@ -641,13 +641,14 @@ footer {
 }
 
 .animcanvas {
-    background-color: rgb(187, 186, 231);
+    /* background-color: rgb(187, 186, 231); */
     width: 86%;
     height: 50em;
     margin-top: 3%;
     margin-left: 1%;
     /* border: 2px solid black; */
     border-radius: 4px 4px;
+    color: white;
 }
 
 .animvid {
@@ -891,4 +892,16 @@ footer {
         position: relative;
     }
 
+    /* ANIMATION */
+    .animcanvas {
+        background-color: 0;
+    }
+    .animvid {
+        width: 100%;
+    }
+    .animtext {
+        margin-top: 20%;
+        margin-left: 0;
+        width: 90%;
+    }
 }
