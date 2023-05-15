@@ -870,4 +870,11 @@ footer {
         margin-left: 0;
     }
 
+    /* DRAWINGS */
+    .art-pieces {
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+    }
+
 }
