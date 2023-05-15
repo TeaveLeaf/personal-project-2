@@ -855,5 +855,9 @@ footer {
         width: 15em;
     }
 
+    /* RESUME */
+    .actResume {
+        width: 85%;
+    }
 
 }
