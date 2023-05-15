@@ -860,4 +860,14 @@ footer {
         width: 100%;
     }
 
+    /* WRITING */
+    .wsample1 {
+        width: 100%;
+        margin-left: 0;
+    }
+    .wsample2 {
+        width: 100%;
+        margin-left: 0;
+    }
+
 }
