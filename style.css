@@ -839,6 +839,17 @@ footer {
     color: rgb(188, 200, 228);
 }
 
+.resumeContain {
+    color: white;
+    font-size: 25px;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+li {
+    font-family: "Questrial";
+}
+
 
 
 
