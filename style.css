@@ -1206,3 +1206,29 @@ li {
         width: 90%;
     }
 }
+
+
+@media only screen and (max-width: 2550px) {
+    .blanket {
+        bottom: 8.5em;
+    }
+    .resume {
+        bottom: 10em;
+    }
+    .brain1 {
+        top: 26%;
+        right: 29%;
+    }
+    .brain2 {
+        top: 27%;
+        right: 46.5%;
+    }
+    .brain3 {
+        top: 50%;
+        right: 39%;
+    }
+    .brain4 {
+        top: 36%;
+        left: 31%;
+    }
+}
