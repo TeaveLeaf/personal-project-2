@@ -9,7 +9,7 @@
     <script src="script.js"></script>
     <title>About Me</title>
   </head>
-  <body>
+  <body class="aboutmebg">
     <nav class="nav">
       <div class="pole"></div>
       <div class="navstuff" id="navstuff">
@@ -55,11 +55,26 @@
         </div>
       </div>
     </nav>
+
+    <div class="kirosbrain">
+      <img src="Pics/brain1.png" alt="Personality" class="brain1" id="brain1" onclick="brain1()">
+      <img src="Pics/brain2.png" alt="Hobbies" class="brain2" id="brain2" onclick="brain2()">
+      <img src="Pics/brain3.png" alt="Awards" class="brain3" id="brain3" onclick="brain3()">
+      <img src="Pics/brain4.png" alt="Plans" class="brain4" id="brain4" onclick="brain4()">
+    </div>
+
+    <div class="brainText" id="closeBrain">
+      <p class="textBrain" id="closeText">I’m a 17 year old student at the high school Clovis North but I also
+      attend the Center of Advanced Research and Technology, also known as CART,
+      in the morning. I'm extremely shy at first but once I'm comfortable I become a very talkative friendly person. When in situations where I am required to speak such as presentations or interviews I try my best to speak as confidently as possible.</p>
+    </div>
+    <img src="Pics/close.png" alt="" width="3%" class="closeBut" id="closeButton" onclick="closebutton()">
+
     <!-- <section class="me-info">
       <img class="aboutmeinfo" src="#" alt="About me">
     </section> -->
 
-    <p class="abtmetext">
+    <!-- <p class="abtmetext">
       I’m a 17 year old student at the high school Clovis North but I also
       attend the Center of Advanced Research and Technology, also known as CART,
       in the morning.
@@ -99,7 +114,7 @@
       animation, graphic design, and game design. After college I plan on
       starting up my own animation studio and maybe even do some traveling if I
       am able to do so.
-    </p>
+    </p> -->
 
     <span class="openclose" id="openclose" onclick="openNav()"></span>
   </body>

@@ -227,6 +227,12 @@ nav {
     top: 35%;
 }
 
+.kirosprite {
+    position: absolute;
+    left: 17%;
+    bottom: 21%;
+}
+
 .grass {
     background-image: url(Pics/grass.png);
     background-size: contain;
@@ -246,7 +252,7 @@ nav {
     width: 45em;
     height: 8em;
     left: 14em;
-    bottom: 8.6em;
+    bottom: 7em;
     transition: 0.5;
     /* 99.2x720 */
 }
@@ -256,18 +262,32 @@ nav {
     width: 80px;
     height: 100px;
     left: 30em;
-    bottom: 15em;
+    bottom: 13em;
+}
+
+/* Makes lantern glow - makes whole lantern fade, fix later */
+@keyframes lightAnim {
+    0% {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%
+    }
 }
 
 .lantern {
     background: none;
-    background-image: url(Pics/lantern-off.png);
+    /* background-image: url(Pics/lantern-off.png); */
     position: fixed;
     width: 80px;
     height: 100px;
     left: 36em;
     bottom: 18em;
     border: none;
+    animation: none;
     /* 1200x960 */
 }
 
@@ -300,6 +320,139 @@ nav {
     cursor: grab;
 }
 
+@keyframes flyfly {
+    0% {
+        transform: rotate(0deg) translate(0);
+    }
+    50% {
+        left: 10%;
+        transform: rotate(5deg) translate(-150px);
+    }
+    100% {
+        left: 5%;
+        transform: rotate(0deg) translate(0);
+    }
+}
+
+@keyframes flyfly2 {
+    0% {
+        transform: rotate(0deg) translate(0);
+    }
+
+    50% {
+        left: 12%;
+        transform: rotate(-10deg) translate(50px);
+    }
+
+    100% {
+        left: 7%;
+        transform: rotate(0deg) translate(0);
+    }
+}
+
+.firefly {
+    background-image: url(Pics/firefly.png);
+    background-size: cover;
+    width: 2em;
+    height: 2em;
+    bottom: 40%;
+    left: 5%;
+    position: absolute;
+    animation: flyfly 10s infinite;
+}
+
+.firefly2 {
+    background-image: url(Pics/firefly.png);
+    background-size: cover;
+    width: 2em;
+    height: 2em;
+    bottom: 30%;
+    left: 7%;
+    position: absolute;
+    animation: flyfly2 13s infinite;
+}
+
+.firefly3 {
+    background-image: url(Pics/firefly.png);
+    background-size: cover;
+    width: 2em;
+    height: 2em;
+    bottom: 50%;
+    right: 15%;
+    position: absolute;
+    animation: flyfly3 11s infinite;
+}
+
+.firefly4 {
+    background-image: url(Pics/firefly.png);
+    background-size: cover;
+    width: 2em;
+    height: 2em;
+    bottom: 35%;
+    right: 7%;
+    position: absolute;
+    animation: flyfly4 15s infinite;
+}
+
+.firefly5 {
+    background-image: url(Pics/firefly.png);
+    background-size: cover;
+    width: 2em;
+    height: 2em;
+    bottom: 43%;
+    right: 10%;
+    position: absolute;
+    animation: flyfly5 16s infinite;
+}
+
+@keyframes flyfly3 {
+    0% {
+        transform: rotate(0deg) translate(0);
+    }
+
+    50% {
+        right: 10%;
+        transform: rotate(5deg) translate(-150px);
+    }
+
+    100% {
+        right: 15%;
+        transform: rotate(0deg) translate(0);
+    }
+}
+
+@keyframes flyfly4 {
+    0% {
+        transform: rotate(0deg) translate(0);
+    }
+
+    50% {
+        right: 10%;
+        transform: rotate(5deg) translate(-150px);
+    }
+
+    100% {
+        right: 7%;
+        transform: rotate(0deg) translate(0);
+    }
+}
+
+@keyframes flyfly5 {
+    0% {
+        transform: rotate(0deg) translate(0);
+    }
+
+    50% {
+        right: 4%;
+        transform: rotate(5deg) translate(50px);
+    }
+
+    100% {
+        right: 10%;
+        transform: rotate(0deg) translate(0);
+    }
+}
+
 
 
 
@@ -329,7 +482,7 @@ nav {
     width: 100px;
     height: 60px;
     left: 19em;
-    bottom: 10.5em;
+    bottom: 9em;
     /* 600x350 */
 }
 
@@ -399,6 +552,68 @@ footer {
 
 
 /* ABOUT ME */
+.aboutmebg {
+    background-image: url(Pics/brainEmpty.png);
+}
+
+.brain1 {
+    /* background-color: red; */
+    cursor: pointer;
+    position: absolute;
+    right: 28%;
+    top: 29%;
+}
+
+.brain2 {
+    /* background-color: rgb(255, 145, 0); */
+    cursor: pointer;
+    position: absolute;
+    right: 46%;
+    top: 30%;
+}
+
+.brain3 {
+    /* background-color: rgb(255, 230, 0); */
+    cursor: pointer;
+    position: absolute;
+    right: 38%;
+    bottom: 15%;
+}
+
+.brain4 {
+    /* background-color: rgb(0, 255, 21); */
+    cursor: pointer;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+}
+
+.brainText {
+    background-color: rgb(126, 106, 199);
+    width: 50%;
+    height: 50em;
+    position: absolute;
+    margin-top: 3%;
+    left: 23%;
+    display: none;
+}
+
+.textBrain {
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.closeBut {
+    /* background-color: rgb(160, 143, 219); */
+    position: absolute;
+    top: 8%;
+    right: 28%;
+    cursor: pointer;
+    display: none;
+}
+
 .aboutmeinfo {
     background-color: blue;
     width: 40%;
@@ -417,6 +632,11 @@ footer {
 
 
 /* RESUME */
+.resumeBg {
+    background-image: url(Pics/blanketBG.png);
+    background-size: cover;
+}
+
 .actResume {
     background-color: #bd8282;
     background-image: url(Pics/resume.png);
@@ -426,6 +646,61 @@ footer {
     margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.resumeContain {
+    color: black;
+    font-size: 20px;
+    /* margin-left: 15%;
+    margin-top: 2%; */
+    position: absolute;
+    top: 13%;
+    left: 15%;
+    line-height: 1.5em;
+}
+
+.resumeContain h2, h3 {
+    color: black;
+    font-family: "Questrial";
+}
+
+@keyframes lilguyjig {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(25deg);
+        top: 24%;
+    }
+    50% {
+        transform: rotate(0deg);
+        top: 25%;
+    }
+    75% {
+        transform: rotate(25deg);
+        top: 24%;
+    }
+}
+
+
+.lilguy {
+    width: 7%;
+    position: absolute;
+    top: 25%;
+    right: 15%;
+    animation: lilguyjig 10s infinite;
+    cursor: pointer;
+}
+
+.downloadBut {
+    /* background-color: blue; */
+    position: absolute;
+    bottom: 0;
+    left: 43%;
+}
+
+li {
+    font-family: "Questrial";
 }
 
 
@@ -788,27 +1063,23 @@ footer {
 
 
 /* CONTACT */
+.contactsBg {
+    background-image: url(Pics/insideTree.png);
+    background-size: cover;
+}
+
 .thankyou {
     /* background-color: rgb(200, 122, 122); */
     width: 30em;
     height: max-content;
-    margin-top: 6%;
-    margin-left: 21%;
-    font-size: 24px;
+    margin-top: 15%;
+    margin-left: 40%;
+    font-size: 30px;
     color: white;
 }
 
-/* .hooty {
-    background-color: rgb(113, 90, 69);
-    width: 30em;
-    height: 40em;
-    position: absolute;
-    bottom: 30%;
-    right: 10%;
-} */
-
 .web {
-    /* background-color: rgb(200, 200, 255); */
+    background-color: rgb(200, 200, 255, 0.5);
     width: 50%;
     height: 48.9em;
     bottom: 0;
@@ -818,40 +1089,33 @@ footer {
 .reach {
     /* background-color: rgb(187, 246, 187); */
     width: max-content;
-    font-size: 28px;
+    font-size: 30px;
     position: fixed;
-    top: 35%;
-    left: 15%;
+    bottom: 35%;
+    left: 20%;
     color: white;
 }
 
 .email {
     /* background-color: rgb(138, 138, 247); */
     font-size: 24px;
+    font-family: "Questrial";
     width: max-content;
     position: fixed;
-    top: 45%;
-    left: 25%;
-    color: rgb(173, 185, 255);
+    bottom: 25%;
+    left: 20%;
+    color: rgb(255, 255, 255);
 }
 
 .email:hover {
     color: rgb(188, 200, 228);
 }
 
-.resumeContain {
-    color: white;
-    font-size: 25px;
-    margin-left: 15%;
-    margin-top: 2%;
+.linkedin {
+    position: absolute;
+    left: 25%;
+    bottom: 0;
 }
-
-li {
-    font-family: "Questrial";
-}
-
-
-
 
 
 /* Media queries and whatever else that's not the main styling */

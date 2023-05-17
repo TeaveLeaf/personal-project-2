@@ -35,10 +35,12 @@ let lanterncount = 0;
 function lanternclick() {
     if (lanterncount == 0) {
         document.getElementById("lanternbg").src = "Pics/lantern-on.png";
+        // document.getElementById("lanternbg").style.animation = "lightAnim 10s infinite";
         lanterncount = lanterncount + 1;
         console.log("Lantern is on!");
     } else if (lanterncount == 1) {
         document.getElementById("lanternbg").src = "Pics/lantern-off.png";
+        // document.getElementById("lanternbg").style.animation = "none";
         lanterncount = lanterncount - 1;
         console.log("Lantern is off!");
     }
@@ -137,4 +139,44 @@ function playAnim3() {
         console.log("ekek");
         animCounter3 = animCounter3 - 1;
     }
+}
+
+function squish() {
+    document.getElementById("lilguy").src = "Pics/bugSquashed.png";
+    document.getElementById("lilguy").style.animation = "none";
+    document.getElementById("lilguy").style.cursor = "default";
+}
+
+function closebutton() {
+    document.getElementById("closeBrain").style.display = "none";
+    document.getElementById("closeText").style.display = "none";
+    document.getElementById("closeButton").style.display = "none";
+}
+
+function brain1() {
+    document.getElementById("closeBrain").style.display = "block";
+    document.getElementById("closeText").style.display = "block";
+    document.getElementById("closeButton").style.display = "block";
+    document.getElementById("closeText").innerHTML = "I’m a 17 year old student at the high school Clovis North but I also attend the Center of Advanced Research and Technology, also known as CART, in the morning. I'm extremely shy at first but once I'm comfortable I become a very talkative friendly person. When in situations where I am required to speak such as presentations or interviews I try my best to speak as confidently as possible.";
+}
+
+function brain2() {
+    document.getElementById("closeBrain").style.display = "block";
+    document.getElementById("closeText").style.display = "block";
+    document.getElementById("closeButton").style.display = "block";
+    document.getElementById("closeText").innerHTML = "Ever since I was a kid I’ve always been interested in the arts and other hobbies that involved my creativity. My biggest hobbies are drawing, animation, and video editing. I’m not sure when my habit of drawing started as I’ve been drawing for as long as I can remember but I do remember when I started animation. I was around ten years old and watching videos on YouTube before I came across animated videos. I immediately fell in love and started to teach myself animation with the app Animation Desk. Over the years I’d switch between animation program to animation program until I burned out in middle school. I stopped animating when I became a freshman in high school and started up again this year as a junior. Most of my hobbies have been self-taught and improved through studying, learning, and making my own projects. Understanding animation and being artistic have especially come in handy while designing my websites as it helps me with creating designs for my websites and putting out original visuals.";
+}
+
+function brain3() {
+    document.getElementById("closeBrain").style.display = "block";
+    document.getElementById("closeText").style.display = "block";
+    document.getElementById("closeButton").style.display = "block";
+    document.getElementById("closeText").innerHTML = "Most of the awards I have were earned when I still actively played golf since I had participated in golf tournaments since I was a young. My more recent achievements however have started directing towards my aspirations. A recent award that I’m proud of is the first place medallion for the Career Skills Challenge. My partner and I participated in the animation portion of the competition and won first place.";
+}
+
+function brain4() {
+    document.getElementById("closeBrain").style.display = "block";
+    document.getElementById("closeText").style.display = "block";
+    document.getElementById("closeButton").style.display = "block";
+    document.getElementById("closeText").innerHTML = "My plans after high school are still unsure but I definitely want to continue my education. I think it would be a good idea for me to continue learning and growing as a person. Majors I’m currently considering are animation, graphic design, and game design. After college I plan on starting up my own animation studio and maybe even do some traveling if I am able to do so.";
 }
